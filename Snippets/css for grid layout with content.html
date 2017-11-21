@@ -1,0 +1,125 @@
+/*CSS is missing the "line comment" syntax, where everything from // to the end of the line is commented out.*/
+
+/* PATH: "../kansio/tiedosto.txt*/
+
+/* Kansi, sivun yläosassa  */
+
+.cover
+{
+    height:500px;
+}
+
+/* Kannen otsikko */
+.covertitle
+{
+    font-size: 42px;
+}
+
+/* Kortin perspektiivi */
+.flip-container
+{
+    perspective: 1000px;
+    
+}
+
+/* käännä kortti kun sitä klikataan */
+.flip-container.click .flipper
+{
+    transform: rotateY(180deg);
+}
+
+/* Kortin koko, container, etu- sekä takaosa*/
+.flip-container, .front, .back
+{
+    width: 100%;
+    
+}
+
+/* Kortin kääntämisen nopeus ja kääntämis-perspektiivi */
+.flipper
+{
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+/* piilottaa kortin toisen puolen kääntäessä */
+.front
+{
+    backface-visibility: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 10px solid black;
+}
+
+.back
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 10px solid black;
+}
+
+/* kortin etupuoli */
+.front
+{
+    z-index: 2;
+    /* for firefox 31 */
+    transform: rotateY(0deg);
+    background-color: aqua;
+}
+
+/* taustapuoli joka on aluksi piilossa */
+.back
+{
+    transform: rotateY(180deg);
+    background-color: blue;
+}
+
+.carousel-position
+{
+    position: relative;
+    top: 0px;
+}
+
+.carousel-img-title
+{
+    float: left;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 0px 3px 0px 3px;
+    background-color: rgb(100, 100, 100);
+    background-color: rgba(0, 0, 0, 0.5);
+    /* tähän vielä text-shadow poisto (oletuksena carousel captionissa) */
+}
+
+.back-title
+{
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+    padding: 0px 3px 0px 3px;
+    /* tähän vielä text-shadow poisto (oletuksena carousel captionissa) */
+}
+
+.back-content
+{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    padding: 0px 3px 0px 3px;
+    /* tähän vielä text-shadow poisto (oletuksena carousel captionissa) */
+}
+
+.back-text-container
+{
+    position: absolute;
+    right: 5px;
+    left: 5px;
+    bottom: 10px;
+    z-index: 10;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: rgb(200, 200, 200);
+    background-color: rgba(255, 255, 255, 0.5);
+}

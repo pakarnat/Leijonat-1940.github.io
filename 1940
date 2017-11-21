@@ -1,0 +1,19 @@
+{
+  "htmlFiles": [
+    {
+      "fileId": "0B8-ZCmTTsurbaE1EWm1VY3BkQmM",
+      "contentType": "text/html",
+      "name": "index.html",
+      "path": "0B8-ZCmTTsurbajZ1cjllNFdsUGc/"
+    }
+  ],
+  "cssFiles": [
+    {
+      "fileId": "0B8-ZCmTTsurbNExQMjZTQkc0cWs",
+      "contentType": "text/css",
+      "name": "index.css",
+      "path": "0B8-ZCmTTsurbajZ1cjllNFdsUGc/styles"
+    }
+  ],
+  "javascriptFiles": []
+}

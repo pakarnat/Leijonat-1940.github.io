@@ -1,0 +1,97 @@
+/*CSS is missing the "line comment" syntax, where everything from // to the end of the line is commented out.*/
+
+/* PATH: "../kansio/tiedosto.txt*/
+
+/* Kansi, sivun yläosassa  */
+
+.cover
+{
+    height:500px;
+}
+
+/* Kannen otsikko */
+.covertitle
+{
+    font-size: 42px;
+}
+
+/* Kortin perspektiivi */
+.flip-container
+{
+    perspective: 1000px
+}
+
+/* käännä kortti kun sitä klikataan */
+.flip-container.click .flipper
+{
+    transform: rotateY(180deg);
+}
+
+/* Kortin koko, container, etu- sekä takaosa*/
+.flip-container, .front, .back
+{
+    width: 100%;
+}
+
+/* Kortin kääntämisen nopeus ja kääntämis-perspektiivi */
+.flipper
+{
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+/* piilottaa kortin toisen puolen kääntäessä */
+.front, .back
+{
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* kortin etupuoli */
+.front
+{
+    z-index: 2;
+    /* for firefox 31 */
+    transform: rotateY(0deg);
+    background-color: aqua;
+}
+
+/* taustapuoli joka on aluksi piilossa */
+.back
+{
+    transform: rotateY(180deg);
+    background-color: blue;
+
+}
+
+.carousel-position
+{
+    position: absolute;
+    top: 0px;
+}
+
+.carousel-img-title
+{
+    float: left;
+    color: black;
+    font-size: 20px;
+    /* tähän vielä text-shadow poisto (oletuksena carousel captionissa) */
+}
+
+.back-title
+{
+    color: black;
+    font-size: 36px;
+    /* tähän vielä text-shadow poisto (oletuksena carousel captionissa) */
+}
+
+.back-content
+{
+    color: black;
+    font-size: 14px;
+    /* tähän vielä text-shadow poisto (oletuksena carousel captionissa) */
+}
+

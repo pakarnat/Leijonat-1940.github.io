@@ -1,0 +1,160 @@
+#header-carousel {
+    height: 100%;
+  
+    
+}
+#cazza1 {
+     height:600px;
+    width: 800px;
+  background-image: url(http://via.placeholder.com/400x400);
+  background-position: center center;
+  background-size: cover;
+}
+
+#cazza2 {
+    height: 600px;
+    width: 800px;
+  background-image: url(http://via.placeholder.com/350x150);
+  background-position: center center;
+  background-size: cover;
+}
+
+#cazza3 {
+    height: 600px;
+    width: 800px;
+  background-image: url(http://via.placeholder.com/350x150);
+  background-position: center center;
+  background-size: cover;
+}
+ body {
+    /*Taustaks kuva, video tai muuta*/
+}
+/* Kansi, sivun yläosassa  */
+
+/* piste?*/
+ .cover {
+    height:500px;
+    /*Tänne kannen taustakuva*/
+}
+/* Kannen otsikko */
+ .covertitle {
+    font-size: 42px;
+    /*Tähän joku sopiva fontti kansiotsikolle*/
+}
+/* Kortin perspektiivi */
+ .flip-container {
+    perspective: 1000px
+}
+/* käännä kortti kun hiiri viedään päälle (hover) */
+ .flip-container.hover .flipper {
+    transform: rotateY(180deg);
+}
+/* Kortin koko, etu- sekä takaosa*/
+ .flip-container, .front, .back {
+    width: 800px;
+    height: 600px;
+}
+/* Kortin kääntämisen nopeus ja kääntämis-perspektiivi */
+ .flipper {
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+/* piilottaa kortin toisen puolen kääntäessä */
+ .front, .back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* kortin etupuoli */
+ .front {
+    z-index: 2;
+    /* for firefox 31 */
+    transform: rotateY(0deg);
+    background-color: aqua;
+}
+/* taustapuoli joka on aluksi piilossa */
+ .back {
+    transform: rotateY(180deg);
+    background-color: blue;
+
+}
+ .back p{
+  color:white;
+
+}
+.koko-100{
+    width:100%;
+    height:100%;
+}
+.kuva-keskelle{
+    margin: 0 auto;
+    text-align:center;
+
+}
+.flipcard {
+  position: relative;
+  perspective: 1200px;
+}
+
+%flipcard-common {
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition: transform .5s ease, visibility .5s ease;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+}
+
+.flipcard--front {
+  @extend %flipcard-common;
+  transform: rotateY(0deg);
+}
+
+.flipcard--back {
+  @extend %flipcard-common;
+  visibility: hidden;
+  position: absolute;
+  transform: rotateY(180deg);
+}
+
+.flipcard.is-flipped {
+  .flipcard--front {
+    visibility: hidden;
+    position: absolute;
+    transform: rotateY(-180deg);
+  }
+  .flipcard--back {
+    visibility: visible;
+    position: static;
+    transform: rotateY(0deg);
+  }
+}
+
+
+// Some extra stuff
+body {
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.container {
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+.card {
+  background: #f9f9f9;
+  box-shadow: 0 1px 4px rgba(#000,.15);
+  padding: 20px;
+}
+

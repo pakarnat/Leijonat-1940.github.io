@@ -1,0 +1,65 @@
+hr
+{
+	margin: 20px 30px 20px 30px;
+	color: rgb(100, 100, 100);
+}
+
+#bgimg-plant
+{
+    position: fixed;
+	z-index: -2;
+	bottom: 0px;
+	right: 0px;
+}
+
+#bgimg-tris
+{
+    position: fixed;
+	z-index: -1;
+	bottom: 0px;
+	right: 0px;
+}
+
+#maincontainer
+{
+	background: rgb(240, 240, 240);
+	background: rgba(240, 240, 240, 0.8);
+	display: block;
+	position: relative;
+	margin: auto;
+	margin-top: 100px;
+	padding: 10px;
+	text-align: center;
+	width: 850px;
+	height: 550px;
+	box-shadow: 5px 5px 5px rgb(200, 200, 200);
+}
+
+#profilepic
+{
+	border-radius: 50%;
+	border-width: 2px;
+	border-style: solid;
+	border-color: rgb(100, 100, 100);
+	width: 350px;
+	height: 350px;
+	float: left;
+	margin: 10px 50px 10px 30px;
+	display: block;
+}
+
+#title
+{
+	font-family: "Advent Pro";
+	font-size: 40px;
+	margin: 10px 10px 10px 10px;
+}
+
+.paddedlato
+{
+	font-family: "Lato";
+	font-size: 18px;
+	color: rgb(70, 70, 70);
+	padding: 0px 20px 0px 20px;
+	text-align: left;
+}

@@ -1,0 +1,32 @@
+body {
+    background-image: url("tausta.jpg");
+}
+div.alku {
+    
+    text-align: center
+}
+p.blue{
+    text-decoration-color: blue;
+}
+img.koko {
+    resize: both;
+    border-radius: 50%;
+    
+}
+h1.white{
+    color: white;
+}
+p.keski{
+    text-align: center;
+    color: white;
+    font-size: 200%
+}
+a.keski{
+    
+    color: orange
+    text-decoration: none;   
+}
+div.keskelle{
+    text-align: center;
+    
+}

@@ -1,0 +1,110 @@
+/*CSS is missing the "line comment" syntax, where everything from // to the end of the line is commented out.*/
+
+/*MUISTA TIEDOSTOPOLKU: "../kansio/tiedosto.txt*/
+html, body
+{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body
+{
+    height: 100%;
+    background-image: url(../images/leijonabg.png);
+    background-repeat: no-repeat;
+    border-image-width: auto;
+    background-color: rgb(77, 195, 255);
+    background-position: bottom right;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.title
+{
+    font-size: 60px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 300px;
+    position: relative;
+    margin: 30px auto 0px auto;
+}
+
+.container
+{
+    display: block;
+    width: 200px;
+    margin: 5% auto 0px auto;
+}
+
+.personbox
+{
+    display: block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 0px auto 20px auto;
+}
+
+.personwhitespace
+{
+    display: block;
+    position: relative;
+    height: 80%;
+}
+
+.nametitle
+{
+    font-size: 36px;
+    text-align: center;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    position: relative;
+    bottom: 10px;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.1);
+    max-width: 180px;
+    margin: 0px auto 0px auto;
+    border-radius: 5px;
+}
+
+.tomi
+{
+    background-image: url(../images/proftomi2.png);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.severi
+{
+    background-image: url(../images/profseveri2.png);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.kristian
+{
+    background-image: url(../images/profkristian2.png);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}

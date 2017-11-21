@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <!-- charset to UTF-8 for compability -->
+        <meta charset="UTF-8">
+
+        <!-- website title -->
+        <title>Suomi 1940-luvulla</title>
+
+        <!-- onko käyttössä? -->
+        <script src="scripts/index.js"></script>
+
+        <!-- favicon -->
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+        <!-- set website width based on viewport width -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- bootstrap start -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <!-- Oma css -->
+        <link rel="stylesheet" type="text/css" href="styles/index.css">
+    </head>
+
+    <body>
+        <h1 class="covertitle text-center">1940</h1>
+        <!-- Aiheet -->
+        <!--Eka rivi -->
+        <div class="container">
+            <!-- Sodan aikana menetetyt alueet -->
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="aihe-title">Sodan aikana menetetyt alueet</h1>
+                    <div class="flip-container" onclick="this.classList.toggle('click');">
+                        <div class="flipper">
+                            <div class="front">
+                                <div id="aihe1car" class="carousel slide carousel-position" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img class="img-responsive" src="images/aihe1/kuva1.jpg">
+                                            <div class="carousel-caption">
+                                                <p class="carousel-img-title">Kuva 1 otsikko</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img class="img-responsive" src="images/aihe1/kuva2.jpg">
+                                            <div class="carousel-caption">
+                                                <p class="carousel-img-title">Kuva 2 otsikko</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img class="img-responsive" src="images/aihe1/kuva3.jpg">
+                                            <div class="carousel-caption">
+                                                <p class="carousel-img-title">Kuva 3 otsikko</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img class="img-responsive" src="images/aihe1/kuva4.jpg">
+                                            <div class="carousel-caption">
+                                                <p class="carousel-img-title">Kuva 4 otsikko</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img class="img-responsive" src="images/aihe1/kuva5.jpg">
+                                            <div class="carousel-caption">
+                                                <p class="carousel-img-title">Kuva 5 otsikko</p>
+                                            </div>
+                                        </div>
+                                    </div><!-- end carousel-inner -->
+                                </div><!-- end carfront -->
+                            </div><!-- end front -->
+                            <div class="back back-img">
+                                <div id="aihe1carback" class="carousel slide carousel-position" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img class="img-responsive" src="http://via.placeholder.com/800x600">
+                                            <div class="back-text-container">
+                                                <h3 class="back-title">Sodan aikana menetetyt alueet</h3>
+                                                <p class="back-content">Sotien seurauksena Suomi menetti suurimman osan Karjalasta sekä Sallan ja Petsamon. Suomi luovutti Neuvostoliitolle yhteensä 42 934 km². Luovutetuilla alueilla ja Porkkalassa asui yhdeksäsosa Suomen väestöstä. Suomi joutui vuokraamaan Porkkalan 50 vuoden ajaksi Neuvostoliitolle sotilastukikohdaksi Moskovan välirauhan yhteydessä 1944. Alueen 7 252 asukasta ja kotieläimet määrättiin evakuoitavaksi sopimuksen solmimisen jälkeen. Alue palautettiin Suomelle vuonna 1956.</p>
+                                            </div>
+                                        </div><!-- end item -->
+                                    </div><!-- end carousel-inner -->
+                                </div><!-- end carback -->
+                            </div><!-- end back -->
+                        </div><!-- end flipper -->
+                    </div><!-- end flip-container -->
+                </div><!-- end col-md-6 -->
+
+                <!-- Sota-ajan asuntopula -->
+                <div class="col-md-6">
+                    <h1 class="aihe-title">Sota-ajan asuntopula</h1>
+                    <div class="flip-container" onclick="this.classList.toggle('click');">
+                        <div class="flipper">
+                            <div class="front">
+                                <div id="aihe2car" class="carousel slide carousel-position" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img class="img-responsive" src="images/aihe2/kuva1.jpg">
+                                            <div class="carousel-caption">
+                                                <p class="carousel-img-title">Kuva 1 otsikko</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img class="img-responsive" src="images/aihe2/kuva2.jpg">
+                                            <div class="carousel-caption">
+                                                <p class="carousel-img-title">Kuva 2 otsikko</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img class="img-responsive" src="images/aihe2/kuva3.jpg">
+                                            <div class="carousel-caption">
+                                                <p class="carousel-img-title">Kuva 3 otsikko</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img class="img-responsive" src="images/aihe2/kuva4.jpg">
+                                            <div class="carousel-caption">
+                                                <p class="carousel-img-title">Kuva 4 otsikko</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img class="img-responsive" src="images/aihe2/kuva5.jpg">
+                                            <div class="carousel-caption">
+                                                <p class="carousel-img-title">Kuva 5 otsikko</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end carousel-inner -->
+                                </div>
+                                <!-- end carfront -->
+                            </div>
+                            <!-- end front -->
+                            <div class="back back-img">
+                                <div id="aihe2carback" class="carousel slide carousel-position" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img class="img-responsive" src="http://via.placeholder.com/800x600">
+                                            <div class="back-text-container">
+                                                 <h3 class="back-title">Sota-ajan asuntopula</h3>
+                                                <p class="back-content">Suomalaiset menettivät sotien seurauksena noin 125 000 asuntoa. Siten 1940-luvulla Suomessa vallitsi ennennäkemätön asuntopula, jonka johdosta asuntoja alkoivat yksityisten lisäksi rakennuttaa kunnat ja
+                                                    aatteelliset tahot. Valtion asuntotuotantotoimikunta eli Arava perustettiin 1949 rahoittamaan asuntorakentamista halpakorkoisin lainoin. Rakennetut asunnot olivat pieniä, mutta niiden varustetaso pyrittiin
+                                                    saamaan mahdollisimman korkeaksi.</p>
+                                            </div>
+                                        </div>
+                                        <!-- end item -->
+                                    </div>
+                                    <!-- end carousel-inner -->
+                                </div>
+                                <!-- end carback -->
+                            </div>
+                            <!-- end back -->
+                        </div>
+                        <!-- end flipper -->
+                    </div>
+                    <!-- end flip-container -->
+                </div>
+                <!-- end col-md-6 -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+
+        <!-- Eka rivi päättyy -->
+        <!-- Toinen rivi -->
+
+        <div class="container">
+            <!-- Sodan aikana menetetyt alueet -->
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="aihe-title">Sodan aikana kuolleet ja kadonneet</h1>
+                    <div class="flip-container" onclick="this.classList.toggle('click');">
+                        <div class="flipper">
+                            <div class="front">
+                                <div id="aihe3car" class="carousel slide carousel-position" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img class="img-responsive" src="images/aihe3/kuva1.jpg">
+                                            <div class="carousel-caption">
+                                                <p class="carousel-img-title">Kuva 1 otsikko</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img class="img-responsive" src="images/aihe3/kuva2.jpg">
+                                            <div class="carousel-caption">
+                                                <p class="carousel-img-title">Kuva 2 otsikko</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img class="img-responsive" src="images/aihe3/kuva3.jpg">
+                                            <div class="carousel-caption">
+                                                <p class="carousel-img-title">Kuva 3 otsikko</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img class="img-responsive" src="images/aihe3/kuva4.jpg">
+                                            <div class="carousel-caption">
+                                                <p class="carousel-img-title">Kuva 4 otsikko</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img class="img-responsive" src="images/aihe3/kuva5.jpg">
+                                            <div class="carousel-caption">
+                                                <p class="carousel-img-title">Kuva 5 otsikko</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end carousel-inner -->
+                                </div>
+                                <!-- end carfront -->
+                            </div>
+                            <!-- end front -->
+                            <div class="back back-img">
+                                <div id="aihe3carback" class="carousel slide carousel-position" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img class="img-responsive" src="http://via.placeholder.com/800x600">
+                                            <div class="back-text-container">
+                                                 <h3 class="back-title">Sodan aikana kuolleet ja kadonneet</h3>
+                                                <p class="back-content">Toisen maailmansodan seurauksena kuoli tai katosi 85 555 suomalaista. Noin 90% kaatuneista ja kadonneista oli 20–40-vuotiaita miehiä. Alle 45-vuotiaista suomalaisista aviovaimoista joka 17. oli toisen maailmansodan
+                                                    päättyessä leski. Sotaorvoiksi jäi Suomessa tilastojen mukaan 50343 lasta.</p>
+                                            </div>
+                                        </div>
+                                        <!-- end item -->
+                                    </div>
+                                    <!-- end carousel-inner -->
+                                </div>
+                                <!-- end carback -->
+                            </div>
+                            <!-- end back -->
+                        </div>
+                        <!-- end flipper -->
+                    </div>
+                    <!-- end flip-container -->
+                </div>
+                <!-- end col-md-6 -->
+                <!-- Sota-ajan asuntopula -->
+                <div class="col-md-6">
+                    <div class="flip-container" onclick="this.classList.toggle('click');">
+                        <div class="flipper">
+                            <div class="front">
+                                <div id="aihe4car" class="carousel slide carousel-position" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img class="img-responsive" src="images/aihe4/kuva1.jpg">
+                                            <div class="carousel-caption">
+                                                <p class="carousel-img-title">Kuva 1 otsikko</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img class="img-responsive" src="images/aihe4/kuva2.jpg">
+                                            <div class="carousel-caption">
+                                                <p class="carousel-img-title">Kuva 2 otsikko</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img class="img-responsive" src="images/aihe4/kuva3.jpg">
+                                            <div class="carousel-caption">
+                                                <p class="carousel-img-title">Kuva 3 otsikko</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end carousel-inner -->
+                                </div>
+                                <!-- end carfront -->
+                            </div>
+                            <!-- end front -->
+                            <div class="back back-img">
+                                <div id="aihe4carback" class="carousel slide carousel-position" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img class="img-responsive" src="http://via.placeholder.com/800x600">
+                                            <div class="back-text-container">
+                                                 <h3 class="back-title">Kunnat</h3>
+                                                <p class="back-content">Vuonna 1936 valittujen kunnanvaltuutettujen toimikausi venähti yhdeksään vuoteen toisen maailmansodan takia. Suomessa järjestettiin 1940-luvulla kahdet kuntavaalit, vuosina 1945 ja 1947.</p>
+                                            </div>
+                                        </div>
+                                        <!-- end item -->
+                                    </div>
+                                    <!-- end carousel-inner -->
+                                </div>
+                                <!-- end carback -->
+                            </div><!-- end back -->
+                        </div>
+                        <!-- end flipper -->
+                    </div>
+                    <!-- end flip-container -->
+                </div>
+                <!-- end col-md-6 -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+
+        <!-- Toinen rivi päättyy -->
+        <!-- Kolmas rivi -->
+
+        <div class="container">
+            <!-- Sodan aikana kuolleet ja kadonneet -->
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="aihe-title">Sodan aikana kuolleet ja kadonneet</h1>
+                    <div class="flip-container" onclick="this.classList.toggle('click');">
+                        <div class="flipper">
+                            <div class="front">
+                                <div id="aihe5car" class="carousel slide carousel-position" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img class="img-responsive" src="images/aihe5/kuva1.jpg">
+                                            <div class="carousel-caption">
+                                                <p class="carousel-img-title">Kuva 1 otsikko</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img class="img-responsive" src="images/aihe5/kuva2.jpg">
+                                            <div class="carousel-caption">
+                                                <p class="carousel-img-title">Kuva 2 otsikko</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img class="img-responsive" src="images/aihe5/kuva3.jpg">
+                                            <div class="carousel-caption">
+                                                <p class="carousel-img-title">Kuva 3 otsikko</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img class="img-responsive" src="images/aihe5/kuva4.jpg">
+                                            <div class="carousel-caption">
+                                                <p class="carousel-img-title">Kuva 4 otsikko</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img class="img-responsive" src="images/aihe5/kuva5.jpg">
+                                            <div class="carousel-caption">
+                                                <p class="carousel-img-title">Kuva 5 otsikko</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end carousel-inner -->
+                                </div>
+                                <!-- end carfront -->
+                            </div>
+                            <!-- end front -->
+                            <div class="back back-img">
+                                <div id="aihe5carback" class="carousel slide carousel-position" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img class="img-responsive" src="http://via.placeholder.com/800x600">
+                                            <div class="back-text-container">
+                                                 <h3 class="back-title">Kulttuuri ja taide</h3>
+                                                <p class="back-content">Kulttuurituotteet olivat erittäin suosittuja sota-ajan Suomessa. Sodan päätyttyä ja elintason alkaessa pikkuhiljaa nousta äänilevyjen, kirjojen, elokuvien, teattereiden ja muun kulttuurin kulutus paradoksaalisesti kääntyi jyrkkään laskuun. Ravintolat ja tanssit nousivat suosioon.
+                                                <Suomalaisten sananvapaus oli radiotoiminnan osalta tarkkaan rajoitettua niin sotavuosina kuin myös niiden jälkeen. Vuonna 1945 Suomessa oli puoli miljoonaa radiolupaa.
+Kansakunnan piti olla joka saralla mahdollisimman yhtenäinen, jotta sodasta olisi selvitty. Taiteen jyrkkään kahtiajakoon palattiin pian sodan päätyttyä. Sotavuosina Suomessa oli tanssikielto. Sodan jälkeen tanssilavat nousivat suosioon ja saivat suorastaan taianomaisen merkityksen.
+Sota-aikana elokuvateattereissa käytiin tiuhaan, ja lähes jokainen elokuva sai vähintään 400 000 katsojaa.
+</p>
+                                            </div>
+                                        </div>
+                                        <!-- end item -->
+                                    </div>
+                                    <!-- end carousel-inner -->
+                                </div>
+                                <!-- end carback -->
+                            </div>
+                            <!-- end back -->
+                        </div>
+                        <!-- end flipper -->
+                    </div>
+                    <!-- end flip-container -->
+                </div>
+                <!-- end col-md-6 -->
+                <!-- Kunnat -->
+                <div class="col-md-6">
+                     <h1 class="aihe-title">Kunnat</h1>
+                    <div class="flip-container" onclick="this.classList.toggle('click');">
+                        <div class="flipper">
+                            <div class="front">
+                                <div id="aihe6car" class="carousel slide carousel-position" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img class="img-responsive" src="images/aihe6/kuva1.jpg">
+                                            <div class="carousel-caption">
+                                                <p class="carousel-img-title">Kuva 1 otsikko</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img class="img-responsive" src="images/aihe6/kuva2.jpg">
+                                            <div class="carousel-caption">
+                                                <p class="carousel-img-title">Kuva 2 otsikko</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img class="img-responsive" src="images/aihe6/kuva3.jpg">
+                                            <div class="carousel-caption">
+                                                <p class="carousel-img-title">Kuva 3 otsikko</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img class="img-responsive" src="images/aihe6/kuva4.jpg">
+                                            <div class="carousel-caption">
+                                                <p class="carousel-img-title">Kuva 4 otsikko</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end carousel-inner -->
+                                </div>
+                                <!-- end carfront -->
+                            </div>
+                            <!-- end front -->
+                            <div class="back back-img">
+                                <div id="aihe6carback" class="carousel slide carousel-position" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img class="img-responsive" src="http://via.placeholder.com/800x600">
+                                            <div class="back-text-container">
+                                                 <h3 class="back-title">Sota-ajan asuntopula</h3>
+                                                <p class="back-content">Suomalaiset menettivät sotien seurauksena noin 125 000 asuntoa. Siten 1940-luvulla Suomessa vallitsi ennennäkemätön asuntopula, jonka johdosta asuntoja alkoivat yksityisten lisäksi rakennuttaa kunnat ja aatteelliset tahot. Valtion asuntotuotantotoimikunta eli Arava perustettiin 1949 rahoittamaan asuntorakentamista halpakorkoisin lainoin. Rakennetut asunnot olivat pieniä, mutta niiden varustetaso pyrittiin saamaan mahdollisimman korkeaksi.</p>
+                                            </div>
+                                        </div>
+                                        <!-- end item -->
+                                    </div>
+                                    <!-- end carousel-inner -->
+                                </div>
+                                <!-- end carback -->
+                            </div>
+                            <!-- end back -->
+                        </div>
+                        <!-- end flipper -->
+                    </div>
+                    <!-- end flip-container -->
+                </div>
+                <!-- end col-md-6 -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+
+
+        <!-- Kolmas rivi päättyy -->
+        <!--Neljäs rivi -->
+
+
+        <div class="container">
+            <!-- Kulttuuri ja taide -->
+            <div class="row">
+                <div class="col-md-6">
+                     <h1 class="aihe-title">Kulttuuri ja taide</h1>
+                    <div class="flip-container" onclick="this.classList.toggle('click');">
+                        <div class="flipper">
+                            <div class="front">
+                                <div id="aihe7car" class="carousel slide carousel-position" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img class="img-responsive" src="images/aihe7/kuva1.jpg">
+                                            <div class="carousel-caption">
+                                                <p class="carousel-img-title">Kuva 1 otsikko</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img class="img-responsive" src="images/aihe7/kuva2.jpg">
+                                            <div class="carousel-caption">
+                                                <p class="carousel-img-title">Kuva 2 otsikko</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img class="img-responsive" src="images/aihe7/kuva3.jpg">
+                                            <div class="carousel-caption">
+                                                <p class="carousel-img-title">Kuva 3 otsikko</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end carousel-inner -->
+                                </div>
+                                <!-- end carfront -->
+                            </div>
+                            <!-- end front -->
+                            <div class="back back-img">
+                                <div id="aihe7carback" class="carousel slide carousel-position" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img class="img-responsive" src="http://via.placeholder.com/800x600">
+                                            <div class="back-text-container">
+                                                 <h3 class="back-title">Sodan aikana menetetyt alueet</h3>
+                                                <p class="back-content">Sotien seurauksena Suomi menetti suurimman osan Karjalasta sekä Sallan ja Petsamon. Suomi luovutti Neuvostoliitolle yhteensä 42 934 km². Luovutetuilla alueilla ja Porkkalassa asui yhdeksäsosa Suomen väestöstä. Suomi joutui vuokraamaan Porkkalan 50 vuoden ajaksi Neuvostoliitolle sotilastukikohdaksi Moskovan välirauhan yhteydessä 1944. Alueen 7 252 asukasta ja kotieläimet määrättiin evakuoitavaksi sopimuksen solmimisen jälkeen. Alue palautettiin Suomelle vuonna 1956.</p>
+                                            </div>
+                                        </div>
+                                        <!-- end item -->
+                                    </div>
+                                    <!-- end carousel-inner -->
+                                </div>
+                                <!-- end carback -->
+                            </div>
+                            <!-- end back -->
+                        </div>
+                        <!-- end flipper -->
+                    </div>
+                    <!-- end flip-container -->
+                </div>
+                <!-- end col-md-6 -->
+                <!-- Väkiluku -->
+                <div class="col-md-6">
+                     <h1 class="aihe-title">Väkiluku</h1>
+                    <div class="flip-container" onclick="this.classList.toggle('click');">
+                        <div class="flipper">
+                            <div class="front">
+                                <div id="aihe8car" class="carousel slide carousel-position" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img class="img-responsive" src="images/aihe8/kuva1.jpg">
+                                            <div class="carousel-caption">
+                                                <p class="carousel-img-title">Kuva 1 otsikko</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img class="img-responsive" src="images/aihe8/kuva2.jpg">
+                                            <div class="carousel-caption">
+                                                <p class="carousel-img-title">Kuva 2 otsikko</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img class="img-responsive" src="images/aihe8/kuva3.jpg">
+                                            <div class="carousel-caption">
+                                                <p class="carousel-img-title">Kuva 3 otsikko</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img class="img-responsive" src="images/aihe8/kuva4.jpg">
+                                            <div class="carousel-caption">
+                                                <p class="carousel-img-title">Kuva 4 otsikko</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img class="img-responsive" src="images/aihe8/kuva5.jpg">
+                                            <div class="carousel-caption">
+                                                <p class="carousel-img-title">Kuva 5 otsikko</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end carousel-inner -->
+                                </div>
+                                <!-- end carfront -->
+                            </div>
+                            <!-- end front -->
+                            <div class="back back-img">
+                                <div id="aihe8carback" class="carousel slide carousel-position" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img class="img-responsive" src="http://via.placeholder.com/800x600">
+                                            <div class="back-text-container">
+                                                 <h3 class="back-title">Sota-ajan asuntopula</h3>
+                                                <p class="back-content">Suomalaiset menettivät sotien seurauksena noin 125 000 asuntoa. Siten 1940-luvulla Suomessa vallitsi ennennäkemätön asuntopula, jonka johdosta asuntoja alkoivat yksityisten lisäksi rakennuttaa kunnat ja aatteelliset tahot. Valtion asuntotuotantotoimikunta eli Arava perustettiin 1949 rahoittamaan asuntorakentamista halpakorkoisin lainoin. Rakennetut asunnot olivat pieniä, mutta niiden varustetaso pyrittiin saamaan mahdollisimman korkeaksi.</p>
+                                            </div>
+                                        </div>
+                                        <!-- end item -->
+                                    </div>
+                                    <!-- end carousel-inner -->
+                                </div>
+                                <!-- end carback -->
+                            </div>
+                            <!-- end back -->
+                        </div>
+                        <!-- end flipper -->
+                    </div>
+                    <!-- end flip-container -->
+                </div>
+                <!-- end col-md-6 -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+
+        <!--Neljäs rivi päättyy -->
+        <!-- Viides rivi -->
+
+        <div class="container">
+            <!-- Avioliitot -->
+            <div class="row">
+                <div class="col-md-6">
+                     <h1 class="aihe-title">Avioliitot</h1>
+                    <div class="flip-container" onclick="this.classList.toggle('click');">
+                        <div class="flipper">
+                            <div class="front">
+                                <div id="aihe9car" class="carousel slide carousel-position" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img class="img-responsive" src="images/aihe9/kuva1.jpg">
+                                            <div class="carousel-caption">
+                                                <p class="carousel-img-title">Kuva 1 otsikko</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img class="img-responsive" src="images/aihe9/kuva2.jpg">
+                                            <div class="carousel-caption">
+                                                <p class="carousel-img-title">Kuva 2 otsikko</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img class="img-responsive" src="images/aihe9/kuva3.jpg">
+                                            <div class="carousel-caption">
+                                                <p class="carousel-img-title">Kuva 3 otsikko</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img class="img-responsive" src="images/aihe9/kuva4.jpg">
+                                            <div class="carousel-caption">
+                                                <p class="carousel-img-title">Kuva 4 otsikko</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img class="img-responsive" src="images/aihe9/kuva5.jpg">
+                                            <div class="carousel-caption">
+                                                <p class="carousel-img-title">Kuva 5 otsikko</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end carousel-inner -->
+                                </div>
+                                <!-- end carfront -->
+                            </div>
+                            <!-- end front -->
+                            <div class="back back-img">
+                                <div id="aihe9carback" class="carousel slide carousel-position" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img class="img-responsive" src="http://via.placeholder.com/800x600">
+                                            <div class="back-text-container">
+                                                 <h3 class="back-title">Sodan aikana menetetyt alueet</h3>
+                                                <p class="back-content">Sotien seurauksena Suomi menetti suurimman osan Karjalasta sekä Sallan ja Petsamon. Suomi luovutti Neuvostoliitolle yhteensä 42 934 km². Luovutetuilla alueilla ja Porkkalassa asui yhdeksäsosa Suomen väestöstä.
+                                                    Suomi joutui vuokraamaan Porkkalan 50 vuoden ajaksi Neuvostoliitolle sotilastukikohdaksi Moskovan välirauhan yhteydessä 1944. Alueen 7 252 asukasta ja kotieläimet määrättiin evakuoitavaksi sopimuksen
+                                                    solmimisen jälkeen. Alue palautettiin Suomelle vuonna 1956.</p>
+                                            </div>
+                                        </div>
+                                        <!-- end item -->
+                                    </div>
+                                    <!-- end carousel-inner -->
+                                </div>
+                                <!-- end carback -->
+                            </div>
+                            <!-- end back -->
+                        </div>
+                        <!-- end flipper -->
+                    </div>
+                    <!-- end flip-container -->
+                </div>
+                <!-- end col-md-6 -->
+                <!-- Sota-ajan asuntopula -->
+                <div class="col-md-6">
+                    <div class="flip-container" onclick="this.classList.toggle('click');">
+                        <div class="flipper">
+                            <div class="front">
+                                <div id="aihe10car" class="carousel slide carousel-position" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img class="img-responsive" src="images/aihe10/kuva1.jpg">
+                                            <div class="carousel-caption">
+                                                <p class="carousel-img-title">Kuva 1 otsikko</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img class="img-responsive" src="images/aihe10/kuva2.jpg">
+                                            <div class="carousel-caption">
+                                                <p class="carousel-img-title">Kuva 2 otsikko</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img class="img-responsive" src="images/aihe10/kuva3.jpg">
+                                            <div class="carousel-caption">
+                                                <p class="carousel-img-title">Kuva 3 otsikko</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img class="img-responsive" src="images/aihe10/kuva4.jpg">
+                                            <div class="carousel-caption">
+                                                <p class="carousel-img-title">Kuva 4 otsikko</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end carousel-inner -->
+                                </div>
+                                <!-- end carfront -->
+                            </div>
+                            <!-- end front -->
+                            <div class="back back-img">
+                                <div id="aihe10carback" class="carousel slide carousel-position" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img class="img-responsive" src="http://via.placeholder.com/800x600">
+                                            <div class="back-text-container">
+                                                 <h3 class="back-title">Sota-ajan asuntopula</h3>
+                                                <p class="back-content">Suomalaiset menettivät sotien seurauksena noin 125 000 asuntoa. Siten 1940-luvulla Suomessa vallitsi ennennäkemätön asuntopula, jonka johdosta asuntoja alkoivat yksityisten lisäksi rakennuttaa kunnat ja
+                                                    aatteelliset tahot. Valtion asuntotuotantotoimikunta eli Arava perustettiin 1949 rahoittamaan asuntorakentamista halpakorkoisin lainoin. Rakennetut asunnot olivat pieniä, mutta niiden varustetaso pyrittiin
+                                                    saamaan mahdollisimman korkeaksi.</p>
+                                            </div>
+                                        </div>
+                                        <!-- end item -->
+                                    </div>
+                                    <!-- end carousel-inner -->
+                                </div>
+                                <!-- end carback -->
+                            </div>
+                            <!-- end back -->
+                        </div>
+                        <!-- end flipper -->
+                    </div>
+                    <!-- end flip-container -->
+                </div>
+                <!-- end col-md-6 -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+
+
+        <!-- Viides rivi päättyy -->
+
+
+    </body>
+</html>
